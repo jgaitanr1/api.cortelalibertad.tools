@@ -24,7 +24,8 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/voto")
 @RequiredArgsConstructor
-@CrossOrigin("*")
+@CrossOrigin(origins = { "http://161.132.50.180:3000" })
+//@CrossOrigin("*")
 public class VotoController {
 
 	@Autowired

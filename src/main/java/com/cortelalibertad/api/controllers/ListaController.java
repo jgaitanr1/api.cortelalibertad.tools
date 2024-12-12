@@ -20,7 +20,8 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/lista")
 @RequiredArgsConstructor
-@CrossOrigin("*")
+@CrossOrigin(origins = { "http://161.132.50.180:3000" })
+//@CrossOrigin("*")
 public class ListaController {
 
 	@Autowired

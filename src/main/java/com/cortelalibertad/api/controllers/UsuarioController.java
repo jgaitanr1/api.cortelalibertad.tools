@@ -26,7 +26,7 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/usuario")
 @RequiredArgsConstructor
-@CrossOrigin(origins = { "https://subcafae.cortejusticialalibertad.com" })
+@CrossOrigin(origins = { "https://subcafae.cortejusticialalibertad.com" , "http://subcafae.cortejusticialalibertad.com:3000", "http://161.132.50.180:3000" })
 //@CrossOrigin("*")
 public class UsuarioController {
 

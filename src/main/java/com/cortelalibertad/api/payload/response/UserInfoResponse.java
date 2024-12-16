@@ -14,13 +14,18 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class UserInfoResponse {
 	
+	String token; 
+	int id;
 	String username;
-	String email;
 	String nombre;
 	String apellido;
 	String docIdentidad;
+	String escalafon;
+	String email;
 	String nroTelefono;
-	String modulo;
+	String regimen;
+	String ultSesion;
+	String codVerificacion;
 	boolean estado;
 	Role role;
 }

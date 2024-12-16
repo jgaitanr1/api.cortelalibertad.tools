@@ -25,6 +25,7 @@ public class AuthResponse {
 	String nroTelefono;
 	String regimen;
 	String ultSesion;
+	String codVerificacion;
 	boolean estado;
 	Role role;
 }

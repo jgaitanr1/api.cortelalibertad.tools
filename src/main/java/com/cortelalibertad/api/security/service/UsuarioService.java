@@ -36,6 +36,7 @@ public class UsuarioService {
 				.escalafon(userRequest.getEscalafon())
 				.regimen(userRequest.getRegimen())
 				.ultSesion(userRequest.getUltSesion())
+				.codVerificacion(userRequest.getCodVerificacion())
 				.estado(userRequest.isEstado())
 				.role(userRequest.getRole())
 				.build();

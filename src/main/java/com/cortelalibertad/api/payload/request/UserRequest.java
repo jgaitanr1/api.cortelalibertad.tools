@@ -26,6 +26,7 @@ public class UserRequest {
 	String nroTelefono;
 	String regimen;
 	String ultSesion;
+	String codVerificacion;
 	boolean estado;
 	Role role;
 	//boolean enabled;

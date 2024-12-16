@@ -61,6 +61,7 @@ public class User implements UserDetails {
 	String regimen;
 	
 	String ultSesion;
+	String codVerificacion;
 	
 	boolean estado;
 	
